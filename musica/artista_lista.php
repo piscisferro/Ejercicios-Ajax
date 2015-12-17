@@ -27,7 +27,7 @@ name="<?php echo $fila["idartista"]?>"
 class="artistas">
 <td class="nombre"><?php echo $fila["nombre"]?></td>
 <td><img class="lupa" src="images/icon-lupa.png">
-<img class="edit" src="images/edit.png"></td>
+<img class="edit" src="images/modificar.png"></td>
 </tr>
 <?php
 }//while
