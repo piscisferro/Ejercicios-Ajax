@@ -20,7 +20,8 @@
         // ha sido guardado en el atributo name de un tr en artista_lista.php.
         var idartista = $(this).closest("tr").attr("name");
         
-        // Con get basicamente decimos "ve a la url albumes_lista.php, mandale como dato input formulario el id del artista"
+        // Con get basicamente decimos "ve a la url albumes_lista.php, mandale como dato input name idartista el id del artista
+        // que tenemos en la variable"
         $.get("albumes_lista.php", {"idartista" : idartista}, function(data) {
             
             // La funcion hace que, los datos obtenidos de albumes_lista los muestra en #albumes_capa, es decir, te devuelve
